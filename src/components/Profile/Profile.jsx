@@ -1,7 +1,6 @@
-import React from 'react';
 import PropTypes from 'prop-types';
 
-const Profile = ({ username, tag, location, avatar, stats }) => {
+const Profile = ({ username , tag, location, avatar, stats }) => {
   return (
     <>
       <div class="profile">
