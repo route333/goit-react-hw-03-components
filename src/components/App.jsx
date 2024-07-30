@@ -9,7 +9,6 @@ export const App = () => {
   return (
     <div
       style={{
-        height: '100vh',
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'center',
@@ -18,15 +17,15 @@ export const App = () => {
         color: '#010101',
       }}
     >
-      <Profile
+      {/* <Profile
         username={user.username}
         tag={user.tag}
         location={user.location}
         avatar={user.avatar}
         stats={user.stats}
-      />
+      /> */}
 
-      <Statistics title="Upload Stats" stats={stats} />
+      {/* <Statistics title="Upload Stats" stats={stats} /> */}
 
       <FriendList friends={friends} />
     </div>
