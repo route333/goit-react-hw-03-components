@@ -15,17 +15,18 @@ export const App = () => {
         alignItems: 'center',
         fontSize: 40,
         color: '#010101',
+        gap: 20,
       }}
     >
-      {/* <Profile
+      <Profile
         username={user.username}
         tag={user.tag}
         location={user.location}
         avatar={user.avatar}
         stats={user.stats}
-      /> */}
+      />
 
-      {/* <Statistics title="Upload Stats" stats={stats} /> */}
+      <Statistics title="Upload Stats" stats={stats}/>
 
       <FriendList friends={friends} />
     </div>
